@@ -21,14 +21,19 @@
 }
 body{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #00b1b1;
 }
 
 .header{
     width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: 0;
 }
 
 .header__logo {
@@ -61,18 +66,30 @@ body{
     border-top: solid rgb(255, 96, 51) 3px;
 }
 
-.article_img{
+.top__img{
     position: absolute;
     top: 0;
     z-index: -1;
+    width: 100%;
 }
+
+.article{
+    width: 1170px;
+    height: 1000px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
 
 .article__title{
     font-size: 60px;
     font-family: "Raleway";
     font-weight: 900;
     color: rgb(38, 38, 38);
-    line-height: 0.417;
+    margin: 0;
     text-align: left;
 }
 
@@ -82,6 +99,8 @@ body{
     color: rgb(38, 38, 38);
     line-height: 1.588;
     width: 368px;
+    margin-top: 34px;
+    margin-bottom: 34px;
 }
 
 .article__button{
@@ -100,32 +119,30 @@ body{
     align-items: center;
 }
 
-.button {
+.article__scroll{
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1500px;
-    height: 1700px;
-    z-index: 17;
-  }
-  .GET_FREE_NOW {
-    font-size: 20px;
+    bottom: 69px;
+    align-self: center;
+}
+
+.article-alt{
+    height: 700px;
+    align-items: flex-end;
+    position: relative;
+}
+
+.article-alt__title{
+    font-size: 90px;
     font-family: "Raleway";
     color: rgb(255, 255, 255);
-    line-height: 1.35;
+    font-weight: bold;
+}
+
+.article-alt__text{
+    color: rgb(255, 255, 255);
+}
+
+.article-alt_img{
     position: absolute;
-    left: 188.92px;
-    top: 555px;
-    z-index: 16;
-  }
-  .bg {
-    background-color: rgb(255, 96, 51);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 165px;
-    top: 541px;
-    width: 200px;
-    height: 55px;
-    z-index: 15;
-  }
-  
+    left: 0;
+}
