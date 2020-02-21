@@ -1,0 +1,166 @@
+@font-face{
+    font-family: MuseoSansRounded;
+    src: url(fonts/MuseoSansRounded-100.ttf);
+}
+
+body{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    border-radius: 10px;
+    background-color: rgb(17, 26, 40);
+    box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+    width: 686px;
+    height: 391px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__logo {
+    position: absolute;
+    width: 65px;
+    height: 33px;
+    top: 24px;
+    left: 21px;
+}
+
+.main-img_holder{
+    width: 329px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-img_holder-img-container{
+    width: 329px;
+    height: 159px;
+}
+
+.main-img_holder-img-container__img{
+    display: none;
+    width: 329px;
+    max-height: 100%;
+}
+
+.main-img_holder-tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    margin-top: 52px;
+
+}
+
+.main-img_holder-tabs__link{
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    margin: 4px;;
+    border-radius: 50%;
+}
+
+
+#link__blue{
+    background-color: rgb(31, 39, 63);
+
+}
+#link__white{
+    background-color: rgb(255, 255, 255);
+}
+
+#link__red{
+    background-color: rgb(237, 51, 51);
+}
+
+#link__aqua{
+    background-color: rgb(41, 227, 234);
+}
+.link__active{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+}
+
+.main-info{
+    width: 186px;
+}
+
+.main-info__name{
+    font-size: 24px;
+    font-family: "MuseoSansRounded";
+    color: rgb(225, 225, 225);
+}
+
+.main-info__description{
+    font-size: 14px;
+    font-family: "MuseoSansRounded";
+    color: rgba(225, 225, 225, 0.541);
+}
+
+.star-rating__star{
+    color: #9da1a6;
+    font-size: 12px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.star-checked{
+    color: #f7bf16;
+}
+
+
+/****************************/
+/*  TODO: fix select style  */
+/****************************/
+.form-select{
+    font-family: "MuseoSansRounded";
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(17, 26, 40);
+    opacity: 0.259;
+    width: 67px;
+    height: 30px;
+    color: rgb(225, 225, 225);
+
+}
+
+.form-select__option{
+    font-size: 14px;
+    font-family: "MuseoSansRounded";
+    color: #797d84;
+}
+
+
+
+
+
+.form-submit{
+    font-size: 14px;
+    font-family: "MuseoSansRounded";
+    color: rgb(225, 225, 225);
+    width: 182px;
+    height: 38px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(17, 26, 40);
+    opacity: 0.259;
+    margin-top: 29px;
+}
+
+.form-submit:hover {
+    background-color: rgb(76, 82, 90);
+}
+
