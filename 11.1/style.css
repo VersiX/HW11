@@ -1,0 +1,131 @@
+@font-face{
+    font-family: Pacifico;
+    src: url(fonts/Pacifico-Regular.ttf);
+}
+
+@font-face{
+    font-family: Raleway;
+    src: url(fonts/Raleway-Light.ttf);
+}
+
+@font-face{
+    font-family: Raleway;
+    src: url(fonts/Raleway-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Raleway;
+    src: url(fonts/Raleway-black.ttf);
+    font-weight: 900;
+}
+body{
+    position: relative;
+}
+
+.header{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-size: 50px;
+    font-family: "Pacifico";
+    color: rgb(38, 38, 38);
+    line-height: 0.5;
+    text-align: right;
+}
+
+.header-menu{
+    width: 557px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.header-menu-item{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    font-weight: bold;
+    line-height: 1.563;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.header-menu-item:nth-of-type(1){
+    border-top: solid rgb(255, 96, 51) 3px;
+}
+
+.article_img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.article__title{
+    font-size: 60px;
+    font-family: "Raleway";
+    font-weight: 900;
+    color: rgb(38, 38, 38);
+    line-height: 0.417;
+    text-align: left;
+}
+
+.article__text{
+    font-size: 17px;
+    font-family: "Raleway";
+    color: rgb(38, 38, 38);
+    line-height: 1.588;
+    width: 368px;
+}
+
+.article__button{
+    width: 200px;
+    height: 55px;
+    background-color: rgb(255, 96, 51);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 1.35;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1500px;
+    height: 1700px;
+    z-index: 17;
+  }
+  .GET_FREE_NOW {
+    font-size: 20px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 1.35;
+    position: absolute;
+    left: 188.92px;
+    top: 555px;
+    z-index: 16;
+  }
+  .bg {
+    background-color: rgb(255, 96, 51);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 165px;
+    top: 541px;
+    width: 200px;
+    height: 55px;
+    z-index: 15;
+  }
+  
