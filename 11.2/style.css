@@ -33,7 +33,7 @@ body{
     left: 21px;
 }
 
-.main-img_holder{
+.main-img-holder{
     width: 329px;
     height: 100%;
     display: flex;
@@ -42,18 +42,18 @@ body{
     justify-content: flex-end;
 }
 
-.main-img_holder-img-container{
+.main-img-holder-img-container{
     width: 329px;
     height: 159px;
 }
 
-.main-img_holder-img-container__img{
+.main-img-holder-img-container__img{
     display: none;
     width: 329px;
     max-height: 100%;
 }
 
-.main-img_holder-tabs{
+.main-img-holder-tabs{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ body{
 
 }
 
-.main-img_holder-tabs__link{
+.main-img-holder-tabs__link{
     display: inline-block;
     height: 9px;
     width: 9px;
